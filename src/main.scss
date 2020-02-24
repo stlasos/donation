@@ -1,0 +1,62 @@
+@import "~bootstrap";
+
+.input-group-addon.select-input {
+  width: 25%;
+  padding: 0;
+}
+
+.input-group-addon.select-input select {
+  height: 100%;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.currency {
+  width: 13%;
+}
+
+.currency .form-control {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-right: 0;
+}
+
+.amount-input {
+  height: 100%;
+}
+
+.amount-input input {
+  border-left: none;
+  padding-left: 0;
+  border-right: none;
+}
+
+.donate-window {
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  text-align: center;
+  box-shadow: 0 0 10px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.suggestions-wrapper {
+  display: grid;
+  grid-template-columns: 93px 93px 93px;
+}
+
+.suggestions-wrapper button {
+  min-width: 75px;
+}
+
+button.donate {
+  min-width: 260px;
+}
+
+.amount-input {
+  padding: 0 10px;
+}
